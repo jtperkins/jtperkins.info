@@ -1,0 +1,76 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!-- <div class="container-fluid text-center d-flex" style="align-items: center; background-color: #009fcb; width: 100vw; height: 50vh;">
+    <h1 class="display-4">Taylor Perkins</h1> <br />
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div> -->
+    <div class="row">
+        <div class="d-flex" style="background-image: radial-gradient(#009fcb, #1c7c96);  width: 100vw; height: 50vh; align-items: center;">  
+            <div class="container text-center">
+                
+                <h1 class="display-4">Meet Taylor Perkins!</h1>
+                <img src="\images\headshot-square.jpg" class="rounded-circle mx-auto d-block img-thumbnail img-fluid" style="max-width: 15%; height: auto;" alt="Professional headshot">
+                <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <p class="lead"> -->
+                <a tabindex="0" class="btn btn-outline-primary btn-lg mt-3" href="#" role="button" data-toggle="popover" data-placement="right" data-trigger="focus" title="Not just yet..." data-content="The Stem Bowl hasn't quite started yet, check back again in a few weeks">Make a team</a>
+                </p>
+            </div>
+        </div>
+    </div>
+            
+
+        
+  <!--       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a> -->
+<div class="container mt-5">
+    <div class="row">
+
+        <div class="container text-center col-md-8">
+            <h2 class="display-5">Taylor's Portfolio</h2>
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id faucibus justo. Vestibulum malesuada 
+                mattis convallis. In vitae nisl aliquam, feugiat arcu at, efficitur nisl. Aenean ornare ex elit, id commodo nulla 
+                posuere vitae. Nam diam orci, vestibulum sit amet euismod vitae, aliquet ut orci. Vestibulum leo nisi, accumsan et ornare vel, 
+                ullamcorper eget sapien. Nulla facilisi. Cras vel ornare ipsum. Quisque quis tincidunt dui.
+            </p>
+        </div>
+        <aside class="blog-sidebar container-fluid col-md-4">
+            <div class="container-fluid p-5 text-center">
+                <div class="card">
+                    <div class="p-2 sidebar-title border-bottom">
+                        <h3 class="display-5">Portfolio</h3>
+                        <p class="text-muted">ASP.NET Core</p>
+                    </div>
+                    <div class="container-fluid p-0">
+                        <ul class="list-unstyled list-group">
+                            <li class="sidebar-list list-group-item"><a href="#" class="container-fluid">this</a></li>
+                            <li class="sidebar-list list-group-item"><a href="https://stem.necs.club" class="container-fluid">TCC Stem Bowl webapp</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>
+</div>
+@section Scripts
+{
+    <script>
+    $(document).ready(function() {
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+            });
+        });
+    </script>
+}
+
