@@ -1,11 +1,55 @@
 html {
-  font-size: 82%; }
+  font-size: 0.85rem; }
   @media (min-width: 768px) {
     html {
-      font-size: 84%; } }
+      font-size: 0.9rem; } }
   @media (min-width: 992px) {
     html {
-      font-size: 86%; } }
+      font-size: 0.95rem; } }
+
+h1, .h1 {
+  font-size: 2.48832rem; }
+
+h2, .h2 {
+  font-size: 2.0736rem; }
+
+h3, .h3 {
+  font-size: 1.728rem; }
+
+h4, .h4 {
+  font-size: 1.44rem; }
+
+h5, .h5 {
+  font-size: 1.2rem; }
+
+h6, .h6 {
+  font-size: 1rem; }
+
+.display-4 {
+  font-size: 3.48832rem; }
+
+.display-3 {
+  font-size: 4.18598rem; }
+
+.display-2 {
+  font-size: 5.02318rem; }
+
+.display-1 {
+  font-size: 6.02782rem; }
+
+@media (min-width: 768px) {
+  h1, .h1 {
+    font-size: 2.48832rem; }
+  h2, .h2 {
+    font-size: 2.0736rem; }
+  h3, .h3 {
+    font-size: 1.728rem; }
+  h4, .h4 {
+    font-size: 1.44rem; }
+  h5, .h5 {
+    font-size: 1.2rem; }
+  h6, .h6 {
+    font-size: 1rem; } }
 
 /*!
  * Bootstrap v4.2.1 (https://getbootstrap.com/)
