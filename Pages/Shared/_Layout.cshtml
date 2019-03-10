@@ -24,40 +24,57 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-toggleable-sm navbar-light box-shadow" style="background-color: #000000;">
-            <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="nav" style="background-color: #000000;">
+            <a class="navbar-brand" href="/">Perkins Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/resume">Resume</a>
+                </li>
+                </ul>
+                <span class="navbar-text">
+                    <i class="fas fa-at"></i>taylor.perkins@alt-tab-design.com
+                </span>
+            </div>
+        </nav>
+
+        <!-- <nav class="navbar navbar-expand-lg navbar-toggleable-sm navbar-light box-shadow" style="background-color: #000000; color: #ffffff;">
+            <div class="container"> -->
                 <!-- TODO: implement javascript to make info bar disappear on scroll-->
-                <!-- <i class="fas fa-map-marker-alt" style="color: #ffffff"></i><span class="ml-1" style="color:#ffffff">North Richland Hills, TX</span> -->
-                <i class="fas fa-phone" style="color: #ffffff"></i><span class="" style="color:#ffffff">817-907-2640</span>
-                <i class="fas fa-at" style="color: #ffffff"></i><span class="" style="color:#ffffff">taylor.perkins@alt-tab-design.com</span>
+<!--                 <i class="fas fa-phone" style="color: #ffffff"></i><span class="" style="color:#ffffff">817-907-2640</span>
+                <i class="fas fa-at" style="color: #ffffff"></i><span class="" style="color:#ffffff">taylor.perkins@alt-tab-design.com</span> -->
                 <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon bg-light"></span>
-                </button> -->
+                </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <ul class="navbar-nav flex-grow-1">
-                        <!-- <i class="fas fa-map-marker-alt" style="color: #ffffff"></i><span class="ml-1" style="color:#ffffff">North Richland Hills, TX</span> -->
-                        <!-- <i class="fas fa-phone" style="color: #ffffff"></i><span class="ml-1" style="color:#ffffff">817-907-2640</span>
-                        <i class="fas fa-at" style="color: #ffffff"></i><span class="ml-1" style="color:#ffffff">Jeffrey.perkins149@my.tccd.edu</span> -->
-                        <!-- <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li> -->
+                            <a class="nav-link text-light" asp-area="" asp-page="/Privacy">Privacy</a>
+                        </li>
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> -->
     </header>
-    <div class="jumbotron-fluid body-content" style=" align-items: center;">
+    <div class="jumbotron-fluid">
         <partial name="_CookieConsentPartial" />
-        <main role="main" class="pb-3">
+        <main role="main">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted mt-3">
+    <footer class="card-footer border-top text-muted mt-3">
         <div class="container">
             &copy; 2019 - jtperkins.info - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
@@ -85,6 +102,7 @@
         <script src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" data-auto-replace-svg="nest"></script>
     </environment>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
 
     @RenderSection("Scripts", required: false)
 </body>
