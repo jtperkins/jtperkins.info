@@ -1,0 +1,78 @@
+@page
+@model ResumeModel
+@{
+    ViewData["Title"] = "Resume";
+}
+
+<div class="container text-center mt-5 mb-5">
+    <h1>JEFFREY T. PERKINS</h1>
+    <p class="lead">
+        6826 Buenos Aires Dr.<br />
+        North Richland Hills, TX 76180<br />
+        817-907-2640<br />
+        taylor.perkins@alt-tab-design.com
+    </p>
+    
+    <div class="container text-left">
+        <h2><em><u>OBJECTIVE</u></em></h2>
+        <p class="lead">Entry-level position in Information Technology, with an emphasis in programming. Desire opportunity for advancement.</p>
+    </div>
+    <div class="container text-left">
+        <h2><em><u>SKILLS SUMMARY</u></em></h2>
+        <p>
+            Proficient in Word, PowerPoint, familiar with excel<br />
+            Typing 56 wpm 100% accuracy <br />
+            Expert in Windows OS environment<br />
+            Comfortable in Linux command line environment<br />
+            Designing and developing websites from the ground up (WordPress)<br />
+            Knowledgeable of HTML and CSS<br />
+            Familiar with the fundamentals of programming, including PHP, JavaScript, and C++.
+        </p>
+    </div>
+    <div class="container text-left">
+        <h2><em><u>EDUCATION</u></em></h2>
+        <p>
+            Tarrant County College, Northeast Campus, Hurst, TX<br />
+            Associate of Arts, May 2018
+        </p>
+    </div>
+    <div class="container text-left">
+        <h2><em><u>WORK EXPERIENCE</u></em></h2>
+        <p class="lead">
+            <h4>Alt-Tab-Design LLC, North Richland Hills, TX August 2017 – present<br /></h4>
+            <strong><h5 class="display-5">Web Designer and Developer</h4></strong>
+            <ul>
+                <li>Design and build websites using WordPress</li>
+                <li>Design and develop websites using ASP.NET Core RazorPages and MVC</li>
+                <li>Develop a suitable WordPress environment using AWS EC2 for hosting</li>
+                <li>ASP.NET core hosting in AWS EC2 inside docker container</li>
+            </ul>
+        </p>
+        <p class="lead">
+            <h4>El Fenix, Waxahachie, TX June 2016 – November 23, 2016<br /></h4>
+            <strong><h5 class="display-5">Bar Tender</h4></strong>
+            <ul>
+                <li>Maintained the alcohol inventory</li>
+                <li>Janitorial duties of the bar</li>
+                <li>Served customers drinks and food</li>
+            </ul>
+        </p>
+        <p class="lead">
+            <h4>All Trades Restoration Services, Maryland Heights, MO February 2016 – June 2016<br /></h4>
+            <strong><h5 class="display-5">Project Manager – Roofing</h4></strong>
+            <ul>
+                <li>Sales of roofs, shingles, drip edge, siding, etc.</li>
+                <li>Coordinate the ongoing roofing job daily, guaranteeing customer’s satisfaction</li>
+            </ul>
+        </p>
+    </div>
+
+    <div class="row justify-content-center mb-5">
+
+        <!-- download resume -->
+        <form method="post" class="m-5">
+            <button class="btn btn-primary" type="submit" asp-page-handler="DownloadFile">Download resume</button>
+        </form>
+    </div>
+</div>
+

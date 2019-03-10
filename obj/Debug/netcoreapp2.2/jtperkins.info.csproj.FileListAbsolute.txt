@@ -28,3 +28,4 @@ D:\web design\jtperkins.info\obj\Debug\netcoreapp2.2\jtperkins.info.Views.pdb
 D:\web design\jtperkins.info\obj\Debug\netcoreapp2.2\jtperkins.info.dll
 D:\web design\jtperkins.info\obj\Debug\netcoreapp2.2\jtperkins.info.pdb
 D:\web design\jtperkins.info\obj\Debug\netcoreapp2.2\jtperkins.info.csproj.CopyComplete
+d:\Web Design\jtperkins.info\obj\Debug\netcoreapp2.2\Razor\Pages\resume.g.cshtml.cs
