@@ -13,7 +13,7 @@ $(document).ready(
         mywindow.scroll(function () {
             newscroll = mywindow.scrollTop();
             if (newscroll > mypos && !up) {
-                $('#nav').delay(1000).finish().slideUp(400);
+                $('#nav').finish().slideUp(400);
                 up = !up;
                 console.log(up);
             } else if(newscroll < mypos && up) {
