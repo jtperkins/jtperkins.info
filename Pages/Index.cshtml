@@ -3,58 +3,47 @@
 @{
     ViewData["Title"] = "Home page";
 }
-
-<!-- <div class="container-fluid text-center d-flex" style="align-items: center; background-color: #009fcb; width: 100vw; height: 50vh;">
-    <h1 class="display-4">Taylor Perkins</h1> <br />
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div> -->
     
-        <div class="d-flex" style="background-image: radial-gradient(#009fcb, #1c7c96);  height: 50vh; align-items: center;">  
-            <div class="container text-center">
-                
-                <h1 class="display-4">Meet Taylor Perkins!</h1>
-                <img src="\images\headshot-square.jpg" class="rounded-circle mx-auto d-block img-thumbnail" style="max-width: 15%; height: auto;" alt="Professional headshot">
-                <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                <p class="lead"> -->
-                <a tabindex="0" class="btn btn-outline-primary btn-lg mt-3" href="/resume" role="button" data-toggle="popover" data-placement="right" data-trigger="focus" title="Not just yet..." data-content="The Stem Bowl hasn't quite started yet, check back again in a few weeks">My Resume</a>
-                </p>
-            </div>
-        </div>
-   
-            
-
+<div class="d-flex" style="background-image: radial-gradient(#009fcb, #1c7c96);  height: 50vh; align-items: center;">  
+    <div class="container text-center">
         
-  <!--       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a> -->
+        <h1 class="display-4">Meet Taylor Perkins!</h1>
+        <img src="\images\headshot-square.jpg" class="rounded-circle mx-auto d-block img-thumbnail" style="max-width: 15%; height: auto;" alt="Professional headshot">
+        <a tabindex="0" class="btn btn-outline-primary btn-lg mt-3" href="/resume" role="button" data-toggle="popover" data-placement="right" data-trigger="focus" title="Not just yet..." data-content="The Stem Bowl hasn't quite started yet, check back again in a few weeks">My Resume</a>
+        </p>
+    </div>
+</div>
 <div class="container mt-5">
     <div class="row mb-sm-5">
         
-        <div class="container text-center col-md-8">
-            <h2 class="display-4">Welcome to my Online Portfolio!</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id faucibus justo. Vestibulum malesuada 
-                mattis convallis. In vitae nisl aliquam, feugiat arcu at, efficitur nisl. Aenean ornare ex elit, id commodo nulla 
-                posuere vitae. Nam diam orci, vestibulum sit amet euismod vitae, aliquet ut orci. Vestibulum leo nisi, accumsan et ornare vel, 
-                ullamcorper eget sapien. Nulla facilisi. Cras vel ornare ipsum. Quisque quis tincidunt dui.
+        <div class="container col-md-8 text-lg-left text-sm-center">
+            <h2 class="display-5">Welcome to my Online Portfolio!</h2>
+            <p class="lead">My name is Taylor Perkins (obviously, it's big and bold at the top :) ) and I am 
+                an aspiring developer. I'd like to take the opporunity here to tell my story. I'm currently enrolled in 11 credit hours of computer science classes. Right now I'm taking 
+                Information Security, Programming Fundamentals III and C# programming, which will leave me with four more classes
+                until I have my AAS in programming and the level II programming certificate from TCC. It will be my second Associates, 
+                as I received my AA back in May of last year. I had picked up where I left off years ago, and at the same time had decided
+                to pivot to programming, but I only had two classes left for my AA so I figured why not finish it. After I take my Operating 
+                system class and hardware class I will take the A+ certification and will look into what it would take for the CCNA. I'm the kind
+                 of person that loves to acquire knowledge, whether or not i will ever use it, doesn't matter. Knowledge is power, knowledge is the advantage 
+                I have over the next peprson, and when it may come in handy, I will not know, but when it is needed I will be ready.
+            </p>
+            <p class="lead">Until recently, I have been designing websites with WordPress for a little over a year now. I touched very little 
+                code, as WordPress is well known for making it easy to build websites without coding knowledge, but I did some minor CSS and HTML
+                customizations when neccessary. Then a buddy of mine introduced me to the ASP.NET Core MVC webapp. Everything changed. We built the 
+                web app for the S.T.E.M. clubs that is just a simple bar style trivia game. Now that I have this powerful open source tool at my disposal
+                I have only been able to stop coding long enough to eat, go to school and finish my homework (Homework is always first, I'm a stright A 
+                student and I intend on keeping it that way). I am thoroughly excited for all the possiblities I see ahead of me. 
             </p>
             <h3 class="display-5 p-3 mb-5">Portfolio</h2>
             
-            <!-- TODO: i need to fix the thumbnail size -->
+            <!-- TODO: I need to fix the thumbnail size and column collapse for mobile ready -->
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                     <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="TCC NE StemBowl ASP.NET Core webapp"
                     data-image="\images\stembowl.png"
                     data-target="#image-gallery">
-                        <img class="img-thumbnail"
-                            src="\images\stembowl.png"
-                            alt="TCC NE Campus stemBowl webapp">
+                        <img class="img-thumbnail" src="\images\stembowl.png" alt="TCC NE Campus stemBowl webapp">
                     </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-xs-6 thumb">
@@ -124,6 +113,17 @@
                             <li class="sidebar-list list-group-item"><a href="https://stem.necs.club" class="container-fluid">TCC Stem Bowl webapp</a></li>
                         </ul>
                     </div>
+                    <div class="p-2 sidebar-title border-bottom">
+                        <h3 class="display-5">More Links</h3>
+                        <p class="text-muted">WordPress</p>
+                    </div>
+                    <div class="container-fluid p-0">
+                        <ul class="list-unstyled list-group">
+                            <li class="sidebar-list list-group-item"><a href="https://cowtownlaw.com" class="container-fluid">Law Office of Jeff S. Hoover</a></li>
+                            <li class="sidebar-list list-group-item"><a href="https://www.jkexcavationllc.com" class="container-fluid">J & K Excavation, LLC</a></li>
+                            <li class="sidebar-list list-group-item"><a href="https://www.alt-tab-design.com" class="container-fluid">My Own Website</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </aside>
@@ -136,76 +136,6 @@
         $(function () {
             $('[data-toggle="popover"]').popover()
             });
-        });
-    </script>
-    <script>
-        let modalId = $('#image-gallery');
-
-        $(document)
-        .ready(function () {
-
-            loadGallery(true, 'a.thumbnail');
-
-            //This function disables buttons when needed
-            function disableButtons(counter_max, counter_current) {
-            $('#show-previous-image, #show-next-image')
-                .show();
-            if (counter_max === counter_current) {
-                $('#show-next-image')
-                .hide();
-            } else if (counter_current === 1) {
-                $('#show-previous-image')
-                .hide();
-            }
-            }
-
-            /**
-            *
-            * param setIDs        Sets IDs when DOM is loaded. If using a PHP counter, set to false.
-            * param setClickAttr  Sets the attribute for the click handler.
-            */
-
-            function loadGallery(setIDs, setClickAttr) {
-            let current_image,
-                selector,
-                counter = 0;
-
-            $('#show-next-image, #show-previous-image')
-                .click(function () {
-                if ($(this)
-                    .attr('id') === 'show-previous-image') {
-                    current_image--;
-                } else {
-                    current_image++;
-                }
-
-                selector = $('[data-image-id="' + current_image + '"]');
-                updateGallery(selector);
-                });
-
-            function updateGallery(selector) {
-                let $sel = selector;
-                current_image = $sel.data('image-id');
-                $('#image-gallery-title')
-                .text($sel.data('title'));
-                $('#image-gallery-image')
-                .attr('src', $sel.data('image'));
-                disableButtons(counter, $sel.data('image-id'));
-            }
-
-            if (setIDs == true) {
-                $('[data-image-id]')
-                .each(function () {
-                    counter++;
-                    $(this)
-                    .attr('data-image-id', counter);
-                });
-            }
-            $(setClickAttr)
-                .on('click', function () {
-                updateGallery($(this));
-                });
-            }
         });
     </script>
 }
