@@ -16,7 +16,7 @@ namespace jtperkins.info.Pages
 
         public ActionResult OnPostDownloadFile()
         {
-            return File("/files/resume.docx", "application/octet-stream", "PerkinsResume.docx");
+            return File("/files/Resume.docx", "application/octet-stream", "PerkinsResume.docx");
         }
     }
 }
