@@ -61,3 +61,9 @@ body {
 
 .sidebar-list:hover {
 background-color: #adb5bd; }
+
+img.img-thumbnail.shadow {
+  -webkit-box-shadow: #000 0 2px 9px 0;
+	-moz-box-shadow: #000 0 2px 9px 0;
+	box-shadow: #000 0 2px 9px 0;
+}
